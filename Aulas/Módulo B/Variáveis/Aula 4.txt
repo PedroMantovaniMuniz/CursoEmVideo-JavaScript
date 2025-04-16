@@ -1,0 +1,15 @@
+//Isso é um comentário em JS
+/*Isso também*/
+
+
+Variáveis são espaços na memória do computador para armazenarmos dados.
+Em JavaScript variáveis podem ser declaradas com var ou let:
+var n1 = 6
+// var(ou let) nome da variável* =(lê-se recebe) valor da variável*
+
+
+Tipos Primitivos são os tipos de dados que podem ser armazenados em uma variável.
+
+string = São palavras, escritas entre " ou ' ou `
+number = São números
+boolean = São dados true ou false
