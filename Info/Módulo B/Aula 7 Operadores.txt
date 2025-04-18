@@ -1,0 +1,59 @@
+Operadores são símbolos usados para fazer operações matemáticas e lógicas. Os principais tipos de operadores incluem: aritméticos, atribuição, relacionais, lógicos e ternários.
+
+Operadores aritméticos são usados para operações matemáticas:
+
++ = soma
+- = subtração
+* = multiplicação
+/ = divisão
+% = resto da divisão (módulo)
+** = potênciação (exponenciação)
+
+Operadores aritméticos tem precedência, ou seja, a ordem em que são executados. A ordem de precedência é a seguinte:
+1. () = parênteses
+2. ** = potênciação
+3. * , / e % = multiplicação, divisão e resto da divisão
+4. + e - = soma e subtração
+
+
+Operadores de atribuição são usados para atribuir valores a variáveis:
+
+Atribuição simples:
+= (atribuição simples)
+
+Auto-atribuições são uma forma simplificada de atribuição, onde é feita uma nova operação com o valor atual da variável e o resultado é substituido na mesma variável.
+
+Auto-atribuições simplificadas:
++= (atribuição de soma):
+n += 5
+// n = n + 5
+-= (atribuição de subtração):
+n -= 3
+// n = n - 3
+*= (atribuição de multiplicação):
+n *= 2
+// n = n * 2
+/= (atribuição de divisão):
+n /= 4
+// n = n / 4
+%= (atribuição de resto da divisão):
+n %= 2
+// n = n % 2
+**= (atribuição de exponenciação):
+n **= 3
+// n = n ** 3
+
+Operadores de incremento acrescentam ou decrementam o valor de uma variável em 1:
+++ (atribuição de incremento):
+n++
+// n = n + 1
+-- (atribuição de decremento):
+n--
+// n = n - 1
+++ (atribuição de incremento):
+n++
+// n = n + 1
+
+Eles podem ser usados antes ou depois da variável, sendo pré-incremento/decremento ou pós-incremento/decremento:
+++n // pré-incremento
+n++ // pós-incremento
