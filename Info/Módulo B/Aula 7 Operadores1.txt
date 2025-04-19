@@ -25,34 +25,26 @@ Auto-atribuições são uma forma simplificada de atribuição, onde é feita um
 
 Auto-atribuições simplificadas:
 += (atribuição de soma):
-n += 5
-// n = n + 5
+n += 5 // n = n + 5
 -= (atribuição de subtração):
-n -= 3
-// n = n - 3
+n -= 3 // n = n - 3
 *= (atribuição de multiplicação):
-n *= 2
-// n = n * 2
+n *= 2 // n = n * 2
 /= (atribuição de divisão):
-n /= 4
-// n = n / 4
+n /= 4 // n = n / 4
 %= (atribuição de resto da divisão):
-n %= 2
-// n = n % 2
+n %= 2 // n = n % 2
 **= (atribuição de exponenciação):
-n **= 3
-// n = n ** 3
+n **= 3 // n = n ** 3
 
 Operadores de incremento acrescentam ou decrementam o valor de uma variável em 1:
 ++ (atribuição de incremento):
-n++
-// n = n + 1
+n++ // n = n + 1
 -- (atribuição de decremento):
-n--
+n-- // n = n - 1
 // n = n - 1
 ++ (atribuição de incremento):
-n++
-// n = n + 1
+n++ // n = n + 1
 
 Eles podem ser usados antes ou depois da variável, sendo pré-incremento/decremento ou pós-incremento/decremento:
 ++n // pré-incremento

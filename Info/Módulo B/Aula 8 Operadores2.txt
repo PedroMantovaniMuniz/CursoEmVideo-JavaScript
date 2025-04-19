@@ -1,0 +1,41 @@
+Operadores relacionais são usados para comparar valores e retornam um valor booleano (true ou false):
+
+> = maior que
+5 > 3 // true
+< = menor que
+5 < 3 // false
+>= maior ou igual a
+5 >= 5 // true
+<= menor ou igual a
+5 <= 3 // false
+== igual a
+5 == 5 // true
+!= diferente de
+3 != 3 // false
+
+Operador de identidade ou igualdade/diferença estrita compara valores e tipos de dados:
+5 === 5 // true
+3 === '3' // false
+5 !== 5 // false
+3 !== '3' // true
+
+
+Operadores lógicos são usados para combinar expressões booleanas e retornam um valor booleano (true ou false):
+
+! (negação)
+!true // false
+&& (conjunção lógica/ e) Dois valores verdadeiros = True
+true && false // false
+|| (disjunção lógica/ ou) Um valor verdadeiro = True
+true || false // true
+
+
+Precedência dos tipos de operadores:
+1. Aritméticos
+2. Relacionais
+3. Lógicos
+
+
+Operador ternário é uma forma simplificada de if/else:
+
+(condição) ? (valor se verdadeiro) : (valor se falso)
