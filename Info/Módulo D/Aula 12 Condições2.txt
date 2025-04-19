@@ -1,0 +1,24 @@
+Condições aninhadas são condições dentro de outras condições:
+
+if (condição1) {
+    // Código executado se condição1 for verdadeira
+} else if (condição2) {
+    // Código executado se condição1 for falsa e condição2 for verdadeira
+} else {
+    // Código executado se condição1 e condição2 forem falsas
+}
+
+
+Condições múltiplas são condições pontuais que verificam se uma variável é igual a um dos vários valores disponíveis:
+
+switch (expressão) {
+    case valor1:
+        // Código executado se expressão for igual a valor1
+        break;
+    case valor2:
+        // Código executado se expressão for igual a valor2
+        break;
+    default:
+        // Código executado se expressão não corresponder a nenhum dos valores
+        break;
+}
