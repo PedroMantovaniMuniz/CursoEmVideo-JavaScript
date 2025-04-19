@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Ex 001 / Módulo D</title>
+    <style>
+        body {
+            font: normal 20px Arial, sans-serif;
+            background-color: beige;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vamos verificar sua moradia</h1>
+    <p>Digite onde você mora atualmente</p>
+    <input type="text" name="userHousing" id="userHousing">
+    <input type="button" value="Verificar" onclick="verifyHousing()">
+</body>
+<script>
+    function verifyHousing() {
+        let userHousing = document.getElementById("userHousing");
+        let userHousingValue = userHousing.value.toLowerCase();
+        if (userHousingValue == 'brasil') {
+            document.body.innerHTML += "<p>Você é brasileiro!</p>";
+        } else {
+            document.body.innerHTML += "<p>Você é estrangeiro!</p>";
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,15 @@
+Condições são estruturas que permitem executar um bloco de código dependendo do resultado de determinada condição.
+
+Condições simples executam um bloco de código se a condição for verdadeira:
+
+if (condição) {
+    // Código executado se a condição for verdadeira
+}
+
+Condições compostas executam um bloco de código se a condição for verdadeira ou outro bloco se a condição for falsa:
+
+if (condição) {
+    // Código executado se a condição for verdadeira
+} else {
+    // Código executado se a condição for falsa
+}
