@@ -4,29 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=], initial-scale=1.0">
     <title>Ex 001 / Módulo D</title>
-    <style>
-        body {
-            font: normal 20px Arial, sans-serif;
-            background-color: beige;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Vamos verificar sua moradia</h1>
-    <p>Digite onde você mora atualmente</p>
-    <input type="text" name="userHousing" id="userHousing">
-    <input type="button" value="Verificar" onclick="verifyHousing()">
+<body onload="load()">
+    <header>
+        <h1>Hora do Dia</h1>
+    </header>
+    <section>
+        <div id="msg">
+            Aqui vai aparecer a mensagem
+        </div>
+        <div id="photo">
+            <img src="images/morning.png" alt="Foto de Dia" id="image">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Pedro M</p>
+    </footer>
 </body>
-<script>
-    function verifyHousing() {
-        let userHousing = document.getElementById("userHousing");
-        let userHousingValue = userHousing.value.toLowerCase();
-        if (userHousingValue == 'brasil') {
-            document.body.innerHTML += "<p>Você é brasileiro!</p>";
-        } else {
-            document.body.innerHTML += "<p>Você é estrangeiro!</p>";
-        }
-    }
-</script>
+<script src="script.js"></script>
 </html>
