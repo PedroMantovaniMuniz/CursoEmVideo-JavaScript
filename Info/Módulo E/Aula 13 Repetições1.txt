@@ -1,0 +1,18 @@
+Repetições são estruturas que permitem executar um bloco de código várias vezes, se uma condição for verdadeira.
+
+Repetições com teste lógico no início fazem a validação antes de executar o bloco de código. Se a condição for falsa, o bloco não será executado.
+Repetições com teste lógico no final executam o bloco de código pelo menos uma vez, mesmo que a condição seja falsa. A validação ocorre após a execução do bloco.
+
+
+Loop 'while' executa um bloco de código enquanto a condição for verdadeira, testando a condição antes de cada iteração:
+
+while (condição) {
+    // Código executado enquanto a condição for verdadeira
+}
+
+
+Loop 'do while' executa um bloco de código pelo menos uma vez e continua enquanto a condição for verdadeira, testando a condição após cada iteração:
+
+do {
+    // Código executado pelo menos uma vez e enquanto a condição for verdadeira
+} while (condição);

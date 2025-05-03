@@ -6,6 +6,7 @@ if (condição) {
     // Código executado se a condição for verdadeira
 }
 
+
 Condições compostas executam um bloco de código se a condição for verdadeira ou outro bloco se a condição for falsa:
 
 if (condição) {
