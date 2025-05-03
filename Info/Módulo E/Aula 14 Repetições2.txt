@@ -1,0 +1,7 @@
+Repetições com variáveis de controle utilizam uma variável para controlar o número de repetições. Essa variável é incrementada ou decrementada a cada iteração do loop, e o loop continua até que a variável atinja um valor específico.
+
+Loop 'for' permite executar um bloco de código um número específico de vezes:
+
+for (inicialização; condição; incremento/decremento) {
+    // Bloco de código a ser executado caso a condição seja verdadeira
+}
