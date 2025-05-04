@@ -1,0 +1,6 @@
+Variáveis Compostas são variáveis que podem armazenar mais de um valor.
+
+Array é uma variável composta que armazena uma lista de valores do mesmo tipo. Contém elementos, e cada elemento tem seu índice e conteúdo:
+
+let numeros = [1, 2, 3, 4, 5]
+//let nome da variável* = [(elemento(índice0)valor*,) (elemento(índice1)valor*,) (elemento(índice2)valor*,) (elemento(índice3)valor*,) (elemento(índice4)valor*)]
