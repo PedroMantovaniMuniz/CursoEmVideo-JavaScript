@@ -1,13 +1,17 @@
 function count() {
-    let start = Number(document.getElementById('txtstart').value);
-    let end = Number(document.getElementById('txtend').value);
-    let step = Number(document.getElementById('txtstep').value);
+    let start = document.getElementById('txtstart').value;
+    let end = document.getElementById('txtend').value;
+    let step = document.getElementById('txtstep').value;
     let res = document.getElementById('res');
 
     if (start === '' || end === '' || step === '') {
         alert('Preencha todos os campos!');
         return;
     }
+
+    start = Number(start);
+    end = Number(end);
+    step = Number(step);
 
     if (step == 0) {
         alert('Passo inválido! Considerando passo 1');
